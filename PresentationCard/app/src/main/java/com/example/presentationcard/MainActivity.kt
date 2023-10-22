@@ -36,7 +36,9 @@ class MainActivity : ComponentActivity() {
                     modifier = Modifier.fillMaxSize(),
                     color = MaterialTheme.colorScheme.background
                 ) {
-                    PresentationCard("Sara", description = "Mi nombre es Sara")
+                    PresentationCard("Sara", description = "Soy estudiante de la Escuela de Ingeniería Informática en la ULPGC. " +
+                            "Me encantaría especializarme en la Computación Gráfica y mi pasión, aparte de la programación" +
+                            "es el arte digital y la música.")
                 }
             }
         }
